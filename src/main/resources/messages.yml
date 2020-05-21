@@ -1,0 +1,40 @@
+# Item Names and descriptions
+CloseMenuName: "&c&lCLOSE MENU"
+CloseMenuLore:
+- "&7Close Menu"
+
+# Money Vault
+MoneyVaultName: "&a&lMONEY VAULT"
+MoneyVaultLore:
+- "&a"
+- "&9"
+
+MoneyVaultBalance: "&a&lSTORED BALANCE"
+MoneyVaultBalanceLore:
+- "&a$ %BALANCE%"
+
+MoneyVaultAdd5: "&a&lADD &7$5"
+MoneyVaultAdd5Lore:
+- "&a"
+- "&9"
+MoneyVaultAdd10: "&a&lADD &7$10"
+MoneyVaultAdd10Lore:
+- "&a"
+- "&9"
+MoneyVaultAdd100: "&a&lADD &7$100"
+MoneyVaultAdd100Lore:
+- "&a"
+- "&9"
+
+MoneyVaultRemove5: "&c&lREMOVE &7$5"
+MoneyVaultRemove5Lore:
+- "&a"
+- "&9"
+MoneyVaultRemove10: "&c&lREMOVE &7$10"
+MoneyVaultRemove10Lore:
+- "&a"
+- "&9"
+MoneyVaultRemove100: "&c&lREMOVE &7$100"
+MoneyVaultRemove100Lore:
+- "&a"
+- "&9"

@@ -1,0 +1,118 @@
+name: V.A.U.L.T.S.
+version: 1.1
+description: Virtual Alternating Unit LAN Technician System
+
+api-version: 1.13
+
+authors: [ZombieHDGaming]
+main: me.zhdg.vault.Main
+
+depend: [Vault]
+softdepend: [MVdWPlaceholderAPI]
+
+commands:
+  vault:
+    description: V.A.U.L.T.S. Main Command
+    usage: </command>
+    aliases: [vaults, pv]
+  systemstatus:
+    description: V.A.U.L.T.S. Storage Status until per player system in place
+    usage: </command>
+    aliases: [ss,status]
+permissions:
+    vaults.*:
+        description: Gives all permissions for V.A.U.L.T.S.
+        children:
+            vaults.open: true
+            vaults.open.*: true
+            vaults.create.*: true
+            vaults.clear.*: true
+            vaults.players: true
+            vaults.players.clear: true
+            vaults.reload: true
+            vaults.about: true
+            vaults.status: true
+    vaults.open.*:
+        description: Gives permission to open all 25 vaults
+        children:
+            vaults.open.1: true
+            vaults.open.2: true
+            vaults.open.3: true
+            vaults.open.4: true
+            vaults.open.5: true
+            vaults.open.6: true
+            vaults.open.7: true
+            vaults.open.8: true
+            vaults.open.9: true
+            vaults.open.10: true
+            vaults.open.11: true
+            vaults.open.12: true
+            vaults.open.13: true
+            vaults.open.14: true
+            vaults.open.15: true
+            vaults.open.16: true
+            vaults.open.17: true
+            vaults.open.18: true
+            vaults.open.19: true
+            vaults.open.20: true
+            vaults.open.21: true
+            vaults.open.22: true
+            vaults.open.23: true
+            vaults.open.24: true
+            vaults.open.25: true
+    vaults.create.*:
+        description: Gives permission to create all 25 vaults
+        children:
+            vaults.create.1: true
+            vaults.create.2: true
+            vaults.create.3: true
+            vaults.create.4: true
+            vaults.create.5: true
+            vaults.create.6: true
+            vaults.create.7: true
+            vaults.create.8: true
+            vaults.create.9: true
+            vaults.create.10: true
+            vaults.create.11: true
+            vaults.create.12: true
+            vaults.create.13: true
+            vaults.create.14: true
+            vaults.create.15: true
+            vaults.create.16: true
+            vaults.create.17: true
+            vaults.create.18: true
+            vaults.create.19: true
+            vaults.create.20: true
+            vaults.create.21: true
+            vaults.create.22: true
+            vaults.create.23: true
+            vaults.create.24: true
+            vaults.create.25: true
+    vaults.clear.*:
+        description: Gives permission to clear all 25 vaults
+        children:
+            vaults.clear.1: true
+            vaults.clear.2: true
+            vaults.clear.3: true
+            vaults.clear.4: true
+            vaults.clear.5: true
+            vaults.clear.6: true
+            vaults.clear.7: true
+            vaults.clear.8: true
+            vaults.clear.9: true
+            vaults.clear.10: true
+            vaults.clear.11: true
+            vaults.clear.12: true
+            vaults.clear.13: true
+            vaults.clear.14: true
+            vaults.clear.15: true
+            vaults.clear.16: true
+            vaults.clear.17: true
+            vaults.clear.18: true
+            vaults.clear.19: true
+            vaults.clear.20: true
+            vaults.clear.21: true
+            vaults.clear.22: true
+            vaults.clear.23: true
+            vaults.clear.24: true
+            vaults.clear.25: true

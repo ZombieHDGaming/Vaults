@@ -1,0 +1,66 @@
+# Prefix for Chat Messages
+Prefix: "&8[&6&lV.A.U.L.T.S.&8] &l» &7"
+
+# Upgrade Prices
+Prices:
+  - "2500"
+  - "5000"
+  - "7500"
+  - "10000"
+  - "12500"
+
+# Chat Messages:
+NoPerms: "&cNo perms!"
+
+Reloaded: "&aReloaded data from config.yml"
+
+NoVaultID: "There is no vault with this ID"
+
+PlayerHasNoVault: "&cThe player '%PLAYER%' has no vaults!"
+
+ClearUsage: "&cWrong usage! /vault clear ID (PLAYER)"
+
+NotEnoughMoney: "Not enough money!"
+
+EnterVaultName: "&e&nPlease enter the name of the vault:"
+
+NotValidVaultName: "&cThis is not a valid name. [a-z, 0-9, -, _] Max. length: 10 | Try again:"
+
+ChangedNameTo: "&aChanged name of vault to %NAME%"
+
+CanceledDeletion: "&aCanceled Deletion!"
+
+CanceledUpgrade: "&aCanceled Upgrade!"
+
+ConfirmedDeletion: "&aClear has been successful!"
+
+UpgradingVault: "&aUpgraded Vault to lvl %LVL%"
+
+NotEnoughEXP: "&cYou don't have enough Lvl!"
+
+NotEnoughEXPInVault: "&cThere is not enough Lvl in your vault"
+
+NotEnoughMoneyInVault: "&cThere is not enough money in your vault"
+
+AddedEXP: "&aAdded %AMOUNT% Lvl to your Experience!"
+
+AddedMoney: "&aAdded $%AMOUNT% to your Balance!"
+
+AddedEXPToVault: "&aAdded %AMOUNT% Lvl to your Vault!"
+
+AddedMoneyToVault: "&aAdded $%AMOUNT% to your Vault!"
+
+CreatedNewVault: "&aCreated a new vault!"
+
+ReachedMaxVaults: "&cYou reached the max. amount of vaults!"
+
+About:
+- "&aAdd the about-text in the config.yml!"
+- "&9&lYou can add as many lines as you want!"
+
+# Titles
+InvPrefix: "&8[&6&lV.A.U.L.T.S.&8] &l» &6&l"
+
+VaultUnnamed: "&8[&6&lVAULT #%ID%&8] &l\xbb %PROG_BAR%"
+
+VaultNamed: "&8[&6&l%NAME%&8] &l\xbb %PROG_BAR%"
